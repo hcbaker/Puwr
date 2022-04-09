@@ -22,7 +22,7 @@ example: <br />
 >If you want to keep quiet, use the `-s` flag to wait specified seconds between request.  (example: -s 5)<br />
 >Use the `-h` flag for usage reference in the script.
 
-**The paramiko and netaddr modules are required for this script to work!**
+**The paramiko and netaddr modules are required for this script to work!** <br />
 You can install them with the pip tool: <br />
 `pip install netaddr paramiko`
 
