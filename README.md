@@ -7,7 +7,7 @@ This can be used to expand out an attack surface on a local network, by forwardi
 
 
 *(example below of how Puwr handles requests)*
-![LogoImage](https://github.com/ciiphys/Puwr/blob/main/img/diagram.PNG)
+![LogoImage](https://github.com/Xeonrx/Puwr/blob/main/img/diagram.PNG)
 
 # Usage
 Puwr is simple to run, only requiring 4 flags: <br />
