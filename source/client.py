@@ -27,15 +27,6 @@ def summary(online,count):
     print(f"\n[Finished at {current()}]\n────────────────────────────────────────")
     exit(f"Scanned) {count}\nOnline)  {len(online)} ")
 
-
-def portscn(ssh,ip,prt):
-
-    scn = f"python3 -c 'import socket;s = socket.socket(socket.AF_INET, socket.SOCK_STREAM);r = s.connect_ex(('{ip}',{prt}));result = True if r == 0 else False;print(result)'"
-    stdin, stdout, stderr = ssh.exec_command(scn)
-    cmd = str(stdout.read())
-    print(cmd)
-
-
 # Author: Xeonrx
 # Source: https://github.com/Xeonrx/Puwr
 # License: MIT License
