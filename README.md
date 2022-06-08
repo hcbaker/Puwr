@@ -42,7 +42,9 @@ You can install them with the pip tool:
 
 # Showcases
 Here are some sources that have showcased Puwr, and I wanted to give a thanks to them!</br>
-
+- https://www.kitploit.com/2022/06/puwr-ssh-pivoting-script-for-expanding.html
+- https://www.handla.it/ssh-pivoting-script-for-increasing-assault-surfaces-on-native-networks/
+- https://haxf4rall.com/2022/06/06/puwr-ssh-pivoting-script-for-expanding-attack-surfaces-on-local-networks/
 
 # Disclaimer
 Note this script is purley just a small enumeration script, and does not directly attack any found devices on the network.
