@@ -26,6 +26,8 @@ example: <br />
 You can install them with the pip tool: <br />
 `pip install netaddr paramiko`
 
+![example](https://github.com/Xeonrx/Puwr/blob/main/img/example.PNG)
+
 # Disclaimer
 Note this script is purley just a small enumeration script, and does not directly attack any found devices on the network.
 Wether you decide to remain persistence on the machine and use it to attack other devices from it, is your choice.
