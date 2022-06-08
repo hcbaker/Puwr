@@ -1,7 +1,9 @@
 
 <p align="center">
  <img src="https://github.com/Xeonrx/Puwr/blob/main/img/icon.png" width="400" height="280">
+ <img src="https://img.shields.io/github/stars/Xeonrx/Puwr?style=social">
  </p>
+
 
 Easily expand your attack surface on a local network by discovering more hosts, via SSH.
 Using a machine running a SSH service, Puwr uses a given subnet range to scope out IP's, sending back any successful ping requests it has.
