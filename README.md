@@ -6,7 +6,7 @@
 
 Easily expand your attack surface on a local network by discovering more hosts, via SSH.
 Using a machine running a SSH service, Puwr uses a given subnet range to scope out IP's, sending back any successful ping requests it has.
-This can be used to expand out an attack surface on a local network, by returning you hosts you couldn't normally reach from your own device.
+This can be used to expand out an attack surface on a local network, by returning you hosts you couldn't normally discover from your own device.
 
 
 *(example below of how Puwr handles requests)*
@@ -35,10 +35,14 @@ example: <br />
 >Use the `-h` flag for usage reference in the script.
 
 **The paramiko and netaddr modules are required for this script to work!** <br />
-You can install them with the pip tool: <br />
+You can install them with the pip tool:
 `pip install netaddr paramiko`
 
 ![example](https://github.com/Xeonrx/Puwr/blob/main/img/example.PNG)
+
+# Showcases
+Here are some sources that have showcased Puwr, and I wanted to give a thanks to them!</br>
+
 
 # Disclaimer
 Note this script is purley just a small enumeration script, and does not directly attack any found devices on the network.
