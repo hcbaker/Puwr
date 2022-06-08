@@ -1,4 +1,5 @@
 # Puwr
+![icon](https://github.com/Xeonrx/Puwr/blob/main/img/icon.PNG)
 ![stars](https://img.shields.io/github/stars/Xeonrx/Puwr?style=social)
 ![forks](https://img.shields.io/github/forks/Xeonrx/Puwr?style=social)
 ![watching](https://img.shields.io/github/watchers/Xeonrx/Puwr?style=social) <br />
