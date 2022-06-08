@@ -1,4 +1,4 @@
-# Puwr
+
 <p align="center">
  <img src="https://github.com/Xeonrx/Puwr/blob/main/img/icon.png" width="400" height="280">
  </p>
