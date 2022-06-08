@@ -1,8 +1,11 @@
 # Puwr
-![icon](https://github.com/Xeonrx/Puwr/blob/main/img/icon.PNG)
-![stars](https://img.shields.io/github/stars/Xeonrx/Puwr?style=social)
-![forks](https://img.shields.io/github/forks/Xeonrx/Puwr?style=social)
-![watching](https://img.shields.io/github/watchers/Xeonrx/Puwr?style=social) <br />
+<p align="center">
+ <img src="https://github.com/Xeonrx/Puwr/blob/main/img/icon.png" width="400" height="280">
+ <img src="https://img.shields.io/github/stars/Xeonrx/Puwr?style=social" width="110" height="23">
+ <img src="https://img.shields.io/github/forks/Xeonrx/Puwr?style=social" width="110" height="23">
+ <img src="https://img.shields.io/github/watchers/Xeonrx/Puwr?style=social" width="110" height="23">
+ </p>
+
 Easily expand your attack surface on a local network by discovering more hosts, via SSH.
 
 
