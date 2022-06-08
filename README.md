@@ -10,6 +10,9 @@ This can be used to expand out an attack surface on a local network, by returnin
 
 *(example below of how Puwr handles requests)*
 ![LogoImage](https://github.com/Xeonrx/Puwr/blob/main/img/diagram.PNG)
+![stars](https://img.shields.io/github/stars/Xeonrx/Puwr?style=social)
+![forks](https://img.shields.io/github/forks/Xeonrx/Puwr?style=social)
+![watching](https://img.shields.io/github/watchers/Xeonrx/Puwr?style=social)<br />
 
 # Usage
 Puwr is simple to run, only requiring 4 flags: <br />
