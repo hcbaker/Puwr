@@ -1,11 +1,11 @@
 import argparse, os, sys
 
-parser = argparse.ArgumentParser(description="cmd line arguements")
+parser = argparse.ArgumentParser(description="Puwr usage")
 parser.add_argument("host",type=str,help="Targeted host")
 parser.add_argument("username",type=str,help="SSH username")
 parser.add_argument("password",type=str,help="SSH password")
-parser.add_argument("iprange",type=str,help="Address range")
-parser.add_argument("-p","--port",type=int,help="Specify port number (22 default)")
+parser.add_argument("iprange",type=str,help="subnet range")
+parser.add_argument("-p","--port",type=int,help="Port number (22 default)")
 parser.add_argument("-s","--seconds",type=int,help="Seconds between requests")
 args = parser.parse_args()
 
