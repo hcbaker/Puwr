@@ -16,7 +16,7 @@ This can be used to expand out an attack surface on a local network, by returnin
 ![watching](https://img.shields.io/github/watchers/Xeonrx/Puwr?style=social)<br />
 
 ## Upcoming
-Here are some new feautres I plan to add in along with the upcoming update.<br />
+Here are some new features I plan to add in along with the upcoming update.<br />
 - Scan for open ports of discovered hosts
 - Enumerate information on "victim" host for privilege escalation
 - Optional colored output
