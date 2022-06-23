@@ -7,6 +7,7 @@
 Easily expand your attack surface on a local network by discovering more hosts, via SSH.
 Using a machine running a SSH service, Puwr uses a given subnet range to scope out IP's, sending back any successful ping requests it has.
 This can be used to expand out an attack surface on a local network, by returning you hosts you couldn't normally discover from your own device.
+Ports can then be probed on these discovered devices, to find a gateway into a pivoting attack.
 
 
 *(example below of how Puwr handles requests)*
@@ -17,7 +18,8 @@ This can be used to expand out an attack surface on a local network, by returnin
 
 ## Upcoming
 Here are some new features I plan to add in along with the upcoming update.<br />
-- Scan for open ports of discovered hosts
+- Scan for open ports of discovered hosts **(DONE)**
+- Change CLI output to look more neat and organized **(DONE)**
 - Enumerate information on "victim" host for privilege escalation
 - Optional colored output
 
@@ -31,7 +33,8 @@ example: <br />
 
 
 >If you need to connect through a port other than 22, use the `-p` flag. (example: -p 2222)<br />
->If you want to keep quiet, use the `-s` flag to wait specified seconds between request.  (example: -s 5)<br />
+>If you want to keep quiet, use the `-s` flag to wait specified seconds between request. (example: -s 5)<br />
+>You can now use `--scan` to discover open ports on discovered devices. (example: --scan 80 443)
 >Use the `-h` flag for usage reference in the script.
 
 **The paramiko and netaddr modules are required for this script to work!** <br />
@@ -39,6 +42,14 @@ You can install them with the pip tool:
 `pip install netaddr paramiko`
 
 ![example](https://github.com/Xeonrx/Puwr/blob/main/img/example.PNG)
+>Here I scanned devices and checked which ones has port 80 and 443 open to target web applications.
+
+# Port Scanning
+As mentioned earlier a few times, you can now not only discover hosts, but also scan them for open ports.<br />
+This can be used to find an attack vector on devices running an accessable service. By default, ports will not
+be scanned, but you can use the `--scan` flag, and add the port numbers you'd like to scan.<br />
+Keep in mind however, that port scanning does take a good bit of additional time to complete.
+**PORT SCANNING ONLY WORKS ON MACHINES WITH PYTHON 3 INSTALLED FOR NOW**
 
 # Showcases
 Here are some sources that have showcased Puwr, and I wanted to give a thanks to them!</br>
