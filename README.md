@@ -44,6 +44,14 @@ You can install them with the pip tool:
 ![example](https://github.com/Xeonrx/Puwr/blob/main/img/example.PNG)
 >Here I scanned devices and checked which ones has port 80 and 443 open to target web applications.
 
+# Tested Operating Systems
+So far, I have only confirmed Puwr to work on a few operating systems:
+- Kali Linux
+- Parrot OS
+- Windows 10
+
+However, it should work on almost any OS with Python, and the needed modules installed.
+
 # Port Scanning
 As mentioned earlier a few times, you can now not only discover hosts, but also scan them for open ports.<br />
 This can be used to find an attack vector on devices running an accessable service. By default, ports will not
