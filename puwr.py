@@ -7,6 +7,7 @@ parser.add_argument("password",type=str,help="SSH password")
 parser.add_argument("iprange",type=str,help="subnet range")
 parser.add_argument("-p","--port",type=int,help="Port number (22 default)")
 parser.add_argument("-s","--seconds",type=int,help="Seconds between requests")
+parser.add_argument("--scan",type=int,nargs="+",help="Scanned ports per discovered host")
 args = parser.parse_args()
 
 if __name__ == "__main__":
@@ -14,9 +15,10 @@ if __name__ == "__main__":
     import client, main
     port = 22 if not args.port else args.port
     seconds = 0 if not args.seconds else args.seconds
+    portrange = [] if not args.scan else args.scan
 
     ssh = client.connect(args.host,args.username,args.password,port) # sets connection with machine via SSH
-    main.puwr(ssh,seconds,args.iprange) # starts program
+    main.puwr(ssh,seconds,args.iprange,portrange,args.scan) # starts program
 
 
 # Author: Xeonrx
