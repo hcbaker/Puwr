@@ -42,7 +42,8 @@ You can install them with the pip tool:
 `pip install netaddr paramiko`
 
 ![example](https://github.com/Xeonrx/Puwr/blob/main/img/example.PNG)
->Here I scanned devices and checked which ones has port 80 and 443 open to target web applications.
+>Here I scanned devices and checked which ones has port 80 and 443 open to target web applications.<br />
+>Notice how the TTL number also displays, giving you a hint at what the device may be running on.
 
 # Tested Operating Systems
 So far, I have only confirmed Puwr to work on a few operating systems:
