@@ -2,6 +2,11 @@
 <p align="center">
  <img src="https://github.com/Xeonrx/Puwr/blob/main/img/icon.png" width="400" height="280">
  </p>
+<p align="center">
+ <img src="https://img.shields.io/github/stars/Xeonrx/Puwr?style=social">
+ <img src="https://img.shields.io/github/forks/Xeonrx/Puwr?style=social">
+ <img src="https://img.shields.io/github/watchers/Xeonrx/Puwr?style=social">
+ </p>
 
 ## Contents
 - [About Puwr](#puwr)
