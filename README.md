@@ -28,7 +28,8 @@ Open ports can then be probed on these discovered devices, to find a gateway int
 ![LogoImage](https://github.com/Xeonrx/Puwr/blob/main/img/diagram.PNG)
 >See how ping request are sent from the compromised machine to different devices on its network. Successful replies are sent back to your device accross the internet.
 
-Of course feel free to fill out an issue request if there are any bugs in the script, or if you think anything should be added/removed.
+Of course feel free to fill out an issue request if there are any bugs in the script, or if you think anything should be added/removed.<br />
+(https://github.com/Xeonrx/Puwr/issues)
 
 
 ## Upcoming
