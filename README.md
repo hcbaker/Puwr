@@ -3,12 +3,21 @@
  <img src="https://github.com/Xeonrx/Puwr/blob/main/img/icon.png" width="400" height="280">
  </p>
 
+## Contents
+- [About Puwr](#puwr)
+- [Upcoming Features](#upcoming)
+- [Puwr Usage](#usage)
+- [Tested Systems](#tested-operating-systems)
+- [Port scanning](#port-scanning)
+- [Showcases](#showcases)
+- [Disclaimer](#disclaimer)
+- [MIT License](#license)
 
+## Puwr
 Easily expand your attack surface on a local network by discovering more hosts, via SSH.
 Using a machine running a SSH service, Puwr uses a given subnet range to scope out IP's, sending back any successful ping requests it has.
 This can be used to create a pivoting attack from a compromised machine, by returning you hosts you couldn't normally discover from your own device.
 Open ports can then be probed on these discovered devices, to find a gateway into hacking more devices.
-
 
 *(example below of how Puwr handles requests)*
 ![LogoImage](https://github.com/Xeonrx/Puwr/blob/main/img/diagram.PNG)
