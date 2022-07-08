@@ -28,8 +28,8 @@ Open ports can then be probed on these discovered devices, to find a gateway int
 ![LogoImage](https://github.com/Xeonrx/Puwr/blob/main/img/diagram.PNG)
 >See how ping request are sent from the compromised machine to different devices on its network. Successful replies are sent back to your device accross the internet.
 
-Of course feel free to fill out an issue request if there are any bugs in the script, or if you think anything should be added/removed.<br />
-(https://github.com/Xeonrx/Puwr/issues)
+Of course feel free to fill out an issue request if there are any bugs in the script, or if you think anything should be added/removed.
+  (https://github.com/Xeonrx/Puwr/issues)
 
 
 ## Upcoming
@@ -77,7 +77,7 @@ Keep in mind however, that port scanning does take a good bit of additional time
 **PORT SCANNING ONLY WORKS ON MACHINES WITH PYTHON 3 INSTALLED FOR NOW**
 
 # Showcases
-Here are some sources that have showcased Puwr, and I wanted to give a thanks to them!</br>
+Here are a few of the many sources that have helped share Puwr with others, and I wanted to give a thanks to them!</br>
 - https://www.kitploit.com/2022/06/puwr-ssh-pivoting-script-for-expanding.html
 - https://www.handla.it/ssh-pivoting-script-for-increasing-assault-surfaces-on-native-networks/
 - https://haxf4rall.com/2022/06/06/puwr-ssh-pivoting-script-for-expanding-attack-surfaces-on-local-networks/
