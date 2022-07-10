@@ -20,7 +20,7 @@
 - [MIT License](#license)
 
 ## Puwr
-Easily expand your attack surface on a local network by discovering more hosts, via SSH.
+Easily expand your attack surface on a local network by discovering more hosts, via [SSH](https://en.wikipedia.org/wiki/Secure_Shell).
 Using a machine running a SSH service, Puwr uses a given subnet range to scope out IP's, sending back any successful ping requests it has.
 This can be used to create a pivoting attack from a compromised machine, by returning you hosts you couldn't normally discover from your own device.
 Open ports can then be probed on these discovered devices, to find a gateway into attacking more devices.
