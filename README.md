@@ -26,7 +26,7 @@ This can be used to create a [pivoting attack](https://www.geeksforgeeks.org/piv
 Open [ports](https://en.wikipedia.org/wiki/Port_(computer_networking)) can then be probed on these discovered devices, to find a gateway into attacking more devices.
 
 ![LogoImage](https://github.com/Xeonrx/Puwr/blob/main/img/diagram.PNG)
->See how ping requests are sent from the compromised machine to different devices on its network. Successful replies are sent back to your device from the SSH tunnel
+>See how ping requests are sent from the compromised machine to different devices on its network. Successful replies are sent back to your device from the SSH tunnel.
 
 Of course feel free to fill out an issue request if there are any bugs in the script, or if you think anything should be added/removed.
   (https://github.com/Xeonrx/Puwr/issues)
