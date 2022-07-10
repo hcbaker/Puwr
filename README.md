@@ -41,7 +41,7 @@ Here are some new features I plan to add in along with the upcoming update.<br /
 
 # Usage
 Puwr is simple to run, only requiring 4 flags: <br />
-`python3 puwr.py (MACHINE IP) (USER) (PASSWORD) (SUBNET VALUE)`
+`python3 puwr.py (MACHINE IP) (SSH USER) (SSH PASSWORD) (SUBNET VALUE)`
 
 
 example: <br />
