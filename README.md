@@ -84,7 +84,8 @@ Here are a few of the many sources that have helped share Puwr with others, and 
 
 # Disclaimer
 Note this script is purley just a small enumeration script, and does not directly attack any found devices on the network.
-Wether you decide to remain persistence on the machine and use it to attack other devices from it, is your choice.
+Wether you decide to remain persistence on the machine and use it to attack other devices from it, is your choice. Puwr
+is designed to help aid you in pivoting, by purley discovering more targets for you to map out.
 
 I encourage you carry out these techniques with **permission**, and stay in the legal bounds of things.
 Unathorized cyber attacks are highly illegal, and no one but you is responsible for any crime!
