@@ -81,6 +81,7 @@ Here are a few of the many sources that have helped share Puwr with others, and 
 - https://www.kitploit.com/2022/06/puwr-ssh-pivoting-script-for-expanding.html
 - https://www.handla.it/ssh-pivoting-script-for-increasing-assault-surfaces-on-native-networks/
 - https://haxf4rall.com/2022/06/06/puwr-ssh-pivoting-script-for-expanding-attack-surfaces-on-local-networks/
+>Extra thanks to the people who left a star on the repo. Every one is very appreciated :)
 
 # Disclaimer
 Note this script is purley just a small enumeration script, and does not directly attack any found devices on the network.
