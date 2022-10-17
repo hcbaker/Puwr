@@ -1,6 +1,6 @@
 
 <p align="center">
- <img src="https://github.com/Xeonrx/Puwr/blob/main/img/icon.png">
+ <img src="https://github.com/Xeonrx/Puwr/blob/main/img/icon.png" width=300 >
  </p>
 <p align="center">
  <img src="https://img.shields.io/github/stars/Xeonrx/Puwr?style=social">
