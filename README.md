@@ -7,6 +7,10 @@
  <img src="https://img.shields.io/github/forks/Xeonrx/Puwr?style=social">
  <img src="https://img.shields.io/github/watchers/Xeonrx/Puwr?style=social">
  </p>
+ <p align="center">
+ <img src="https://img.shields.io/github/license/xeonrx/puwr">
+ <img src="https://img.shields.io/github/contributors/xeonrx/puwr">
+ </p>
 
 
 ## Contents
