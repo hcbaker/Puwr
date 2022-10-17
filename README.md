@@ -11,6 +11,7 @@
  <img src="https://img.shields.io/github/license/xeonrx/puwr">
  <img src="https://img.shields.io/github/contributors/xeonrx/puwr">
  </p>
+ ![](https://github.com/Xeonrx/Puwr/blob/main/img/puwr.gif)
 
 
 ## Contents
