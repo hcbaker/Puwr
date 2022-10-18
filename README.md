@@ -21,7 +21,7 @@
 - [Port scanning](#port-scanning)
 - [Showcases](#showcases)
 - [Disclaimer](#disclaimer)
-- [MIT License](#license)
+- [Future](#future)
 
 ## Puwr
 Easily expand your attack surface on a local network by discovering more hosts, via [SSH](https://en.wikipedia.org/wiki/Secure_Shell).
@@ -74,28 +74,6 @@ is designed to help aid you in pivoting, by purley discovering more targets for 
 I encourage you carry out these techniques with **permission**, and stay in the legal bounds of things.
 Unathorized cyber attacks are highly illegal, and no one but you is responsible for any crime!
 
-# License
-Puwr uses the MIT License. You can read about it here:
-```
-MIT License
-
-Copyright (c) 2022 ciiphys
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+# Future
+This project is still in development, and is being worked on. My main objective as of right now, is to add minor features, and make the current
+code more efficent/faster. Contributions are welcome to the project.
