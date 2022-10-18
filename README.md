@@ -17,9 +17,7 @@
 
 ## Contents
 - [About Puwr](#puwr)
-- [Upcoming Features](#upcoming)
 - [Puwr Usage](#usage)
-- [Tested Systems](#tested-operating-systems)
 - [Port scanning](#port-scanning)
 - [Showcases](#showcases)
 - [Disclaimer](#disclaimer)
@@ -31,19 +29,10 @@ Using a machine running a SSH service, Puwr uses a given subnet range to scope o
 This can be used to create a [pivoting attack](https://www.geeksforgeeks.org/pivoting-moving-inside-a-network/) from a compromised machine, by returning you hosts you couldn't normally discover from your own device.
 Open [ports](https://en.wikipedia.org/wiki/Port_(computer_networking)) can then be probed on these discovered devices, to find a gateway into attacking more devices.
 
-![LogoImage](https://github.com/Xeonrx/Puwr/blob/main/img/diagram.PNG)
 >See how ping requests are sent from the compromised machine to different devices on its network. Successful replies are sent back to your device from the SSH tunnel.
 
 Of course feel free to fill out an issue request if there are any bugs in the script, or if you think anything should be added/removed.
   (https://github.com/Xeonrx/Puwr/issues)
-
-
-## Upcoming
-Here are some new features I plan to add in along with the upcoming update.<br />
-- Scan for open ports of discovered hosts **(DONE)**
-- Change CLI output to look more neat and organized **(DONE)**
-- Enumerate information on "victim" host for privilege escalation
-- Optional colored output
 
 # Usage
 Puwr is simple to run, only requiring 4 flags: <br />
@@ -62,18 +51,6 @@ example: <br />
 **The paramiko and netaddr modules are required for this script to work!** <br />
 You can install them with the pip tool:
 `pip install netaddr paramiko`
-
-![example](https://github.com/Xeonrx/Puwr/blob/main/img/example.PNG)
->Here I scanned devices and checked which ones has port 80 and 443 open to target web applications.<br />
->Notice how the TTL number also displays, giving you a hint at what the device may be running on.
-
-# Tested Operating Systems
-So far, I have only confirmed Puwr to work on a few operating systems:
-- Kali Linux
-- Parrot OS
-- Windows 10
-
-However, it should work on almost any OS with Python, and the needed modules installed.
 
 # Port Scanning
 As mentioned earlier a few times, you can now not only discover hosts, but also scan them for open ports.<br />
