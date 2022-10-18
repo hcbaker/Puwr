@@ -29,9 +29,7 @@ Using a machine running a SSH service, Puwr uses a given subnet range to scope o
 This can be used to create a [pivoting attack](https://www.geeksforgeeks.org/pivoting-moving-inside-a-network/) from a compromised machine, by returning you hosts you couldn't normally discover from your own device.
 Open [ports](https://en.wikipedia.org/wiki/Port_(computer_networking)) can then be probed on these discovered devices, to find a gateway into attacking more devices.
 
->See how ping requests are sent from the compromised machine to different devices on its network. Successful replies are sent back to your device from the SSH tunnel.
-
-Of course feel free to fill out an issue request if there are any bugs in the script, or if you think anything should be added/removed.
+Of course feel free to fill out an issue request if there are any apparent issues, or if functionality should be added.
   (https://github.com/Xeonrx/Puwr/issues)
 
 # Usage
