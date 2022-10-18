@@ -9,7 +9,7 @@
  </p>
  <p align="center">
  <img src="https://img.shields.io/github/license/xeonrx/puwr">
- <img src="https://img.shields.io/github/contributors/xeonrx/puwr">
+ <img src="https://img.shields.io/badge/version-0.2.1-green">
  </p>
  <p align="center">
  <img src="https://github.com/Xeonrx/Puwr/blob/main/img/puwr.gif">
