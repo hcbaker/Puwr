@@ -43,7 +43,7 @@ example: <br />
 
 >If you need to connect through a port other than 22, use the `-p` flag. (example: -p 2222)<br />
 >If you want to keep quiet, use the `-s` flag to wait specified seconds between requests. (example: -s 5)<br />
->You can use `--scan` to probe open ports on discovered devices. (example: --scan 80 443)<br />
+>You can use `--scan` to probe for open ports on discovered devices. (example: --scan 80 443)<br />
 >Use the `-h` flag for usage reference in the script.
 
 **The paramiko and netaddr modules are required for this script to work!** <br />
